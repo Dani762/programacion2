@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE colores [
   <!ELEMENT colores (color*)>
-  <!ELEMENT color (nombreSvg*,rgb*,cmyk*)>
+  <!ELEMENT color (nombreSvg*,rgb*,codigo*)>
   <!ELEMENT nombreSvg (#PCDATA)>
   <!ELEMENT rgb (#PCDATA)>
+  <!ELEMENT codigo (cmyk*)>
   <!ELEMENT cmyk (#PCDATA)>
 ]>
 
